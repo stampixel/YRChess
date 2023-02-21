@@ -15,7 +15,7 @@
     --beige: #FEFAE0;
     --light-brown: #DDA15E;
     --dark-brown: #BC6C25;
-    --website-color: #273A58;
+    --website-color: #E3DBD2;
 
     --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
@@ -24,7 +24,6 @@
 
 body {
     /*BACKGROUND COLOR OF THE WHOLE WEBSITE*/
-    background: #273A58;
     background: var(--website-color);
     font-family: "Inter", sans-serif;
     overflow-x: hidden;
@@ -100,7 +99,6 @@ header {
     transition: all 0.3s ease 0s;
 }
 
-wa3
 .nav-links button:hover {
     background-color: rgba(36, 37, 55, 0.6);
     /*text-underline: white;*/
@@ -135,17 +133,9 @@ wa3
     flex-direction: column;
     align-items: center;
     overflow: auto;
+    overflow-x: hidden;
 }
 
-main {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    gap: 200px;
-    padding: 0 45px;
-    max-width: 1500px;
-}
 
 #bannerBackground {
     background-image: url("../static/img/chess_bg.png");
@@ -156,8 +146,6 @@ main {
     flex-direction: column;
 
     align-items: center;
-
-
 }
 
 #banner {
@@ -176,10 +164,74 @@ main {
 
 #banner h1 {
     line-height: 1em;
+    color: #E6E6E6;
 }
+
 
 .socials {
     padding-top: 1em;
+    color: #E6E6E6;
+}
+
+/*MAIN PAGE STYLES*/
+main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    /*gap: 200px;*/
+    padding: 0 45px;
+    max-width: 1500px;
+}
+
+.full-page {
+    padding-top: 3em;
+    align-content: center;
+    width: 60%;
+}
+
+.title {
+    text-align: center;
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+
+.info {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 6em;
+}
+
+.chart {
+    background-color: #D2DAE3;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+
+    padding: 2em;
+    border-radius: 2em;
+    height: 18em;
+}
+
+.menu {
+    height: 100%;
+    position: relative;
+}
+
+.btn {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.btn button {
+    padding: 11px 46px;
+    gap: 12px;
+    background: #E5E7EB;
+    box-shadow: 0 12px 30px rgba(24, 92, 255, 0.18);
+    border-radius: 30px;
 }
 
 @media screen and (max-width: 650px) {
