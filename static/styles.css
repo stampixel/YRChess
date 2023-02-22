@@ -54,8 +54,8 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0px 5%;
-    font-size: 24px;
+    padding: 0 5%;
+    font-size: 14px;
     height: 7%;
 }
 
@@ -97,6 +97,8 @@ header {
     border: none;
     cursor: pointer;
     transition: all 0.3s ease 0s;
+    color: #284C7B;
+
 }
 
 .nav-links button:hover {
@@ -107,7 +109,20 @@ header {
 .nav-links a:hover {
     text-underline: white;
     text-decoration: underline;
+    text-underline-offset: 5px;
+    text-decoration-thickness: 3px;
 
+}
+
+ALIGN THE YRCHESS LOGO CENTERED VERTICALLY
+.container {
+
+
+}
+
+#yrchess {
+    left: 0;
+    margin: 0 auto;
 }
 
 
@@ -273,6 +288,7 @@ main {
 #sponsors {
     background-color: #CFC2B3;
 }
+
 @media screen and (max-width: 650px) {
 
 }
