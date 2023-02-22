@@ -179,24 +179,33 @@ main {
     height: 100%;
     display: flex;
     flex-direction: column;
-    /*gap: 200px;*/
-    padding: 0 45px;
-    max-width: 1500px;
+
+    justify-content: center;
+
+    /*padding: 0 45px;*/
+    /*max-width: 1500px;*/
 }
 
 .full-page {
-    /*padding-top: 3em;*/
-    align-content: center;
-    width: 100%;
+
 }
+
 
 .section {
     margin-top: 3em;
     margin-bottom: 3em;
+    /*NEEDS ALIGN SELF CENTER TO CENTER SOMETHING IN A FLEX COLUMN*/
+    align-self: center;
+    justify-content: center;
 }
 
 #exploreWebsite {
     background-color: ;
+    max-width: 1500px;
+    padding: 0 45px;
+    /*display: flex;*/
+    /*flex-direction: column;*/
+    /*justify-content: center;*/
 }
 
 .title {
@@ -206,27 +215,32 @@ main {
 }
 
 .info {
-    width: 100%;
+    width: 80%;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     gap: 6em;
+    margin: auto;
 }
 
 .chart {
     background-color: #D2DAE3;
-    width: 30%;
+    width: 40%;
     display: flex;
     flex-direction: column;
 
     padding: 2em;
     border-radius: 2em;
-    height: 18em;
+    height: auto;
 }
 
 .menu {
     height: 100%;
     position: relative;
+    display: flex;
+    flex-direction: column;
+    /*gap: 1em;*/
+    justify-content: space-between;
 }
 
 .text {
@@ -236,9 +250,10 @@ main {
 }
 
 .btn {
-    position: absolute;
-    right: 0;
-    bottom: 0;
+    margin-top: 2em;
+    width: 100%;
+
+
 }
 
 .btn button {
@@ -247,8 +262,17 @@ main {
     background: #E5E7EB;
     box-shadow: 0 12px 30px rgba(24, 92, 255, 0.18);
     border-radius: 30px;
+
+    right: 0;
+    bottom: 0;
 }
 
+
+/*SPONSORS GO HERE*/
+
+#sponsors {
+    background-color: #CFC2B3;
+}
 @media screen and (max-width: 650px) {
 
 }
