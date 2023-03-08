@@ -16,7 +16,6 @@
     --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
-
 body {
     /*BACKGROUND COLOR OF THE WHOLE WEBSITE*/
     background: var(--website-color);
@@ -47,7 +46,6 @@ a {
     margin-right: auto;
     max-width: 1950px;
 }
-
 
 header {
     width: 100%;
@@ -92,7 +90,6 @@ header {
     padding: 0 20px;
 }
 
-
 .nav-links a {
     padding: 15px 25px;
     border: none;
@@ -112,8 +109,8 @@ header {
     text-decoration: underline;
     text-underline-offset: 5px;
     text-decoration-thickness: 3px;
-
 }
+
 
 /*ALIGN THE YRCHESS LOGO CENTERED VERTICALLY*/
 .container {
@@ -126,7 +123,6 @@ header {
     vertical-align: middle;
 }
 
-
 #yrchess {
     text-align: center;
     display: table;
@@ -137,7 +133,6 @@ header {
     display: table-cell;
     vertical-align: middle
 }
-
 
 .fa-brands, .fab {
     margin-left: 5px;
@@ -154,8 +149,8 @@ header {
     color: #ffff;
 }
 
-/*MAIN STYLES*/
 
+/*MAIN STYLES*/
 .main {
     display: flex;
     flex-direction: column;
@@ -163,7 +158,6 @@ header {
     overflow: auto;
     overflow-x: hidden;
 }
-
 
 #bannerBackground {
     background-image: url("../static/img/chess_bg.png");
@@ -195,11 +189,11 @@ header {
     color: #E6E6E6;
 }
 
-
 .socials {
     padding-top: 1em;
     color: #E6E6E6;
 }
+
 
 /*MAIN PAGE STYLES*/
 main {
@@ -213,11 +207,6 @@ main {
     /*padding: 0 45px;*/
     /*max-width: 1500px;*/
 }
-
-.full-page {
-
-}
-
 
 .section {
     margin-top: 3em;
@@ -302,7 +291,6 @@ main {
 
 
 /*SPONSORS GO HERE*/
-
 #sponsors {
     background-color: #CFC2B3;
     display: flex;
