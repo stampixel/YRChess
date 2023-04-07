@@ -112,11 +112,6 @@ header {
 }
 
 
-/*ALIGN THE YRCHESS LOGO CENTERED VERTICALLY*/
-.container {
-
-}
-
 #top-logo {
     display: flex;
     flex-direction: row;
@@ -233,6 +228,9 @@ main {
 }
 
 .title {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
     text-align: center;
     margin-top: 3em;
     margin-bottom: 3em;
@@ -266,7 +264,7 @@ main {
     justify-content: space-between;
 }
 
-.text {
+.text-block {
     display: flex;
     flex-direction: column;
     gap: 1em;
@@ -277,7 +275,7 @@ main {
     width: 100%;
 }
 
-.btn button {
+button {
     padding: 11px 46px;
     gap: 12px;
     background: #E5E7EB;
@@ -298,31 +296,20 @@ main {
     padding: 0 45px
 }
 
-#sponsors h1 {
-    margin-bottom: 1em;
-}
-
-/*#logos {*/
-/*    display: flex;*/
-/*    flex-direction: row;*/
-/*}*/
-
 /*FOOTER GOES HERE*/
 footer {
     width: 100%;
-}
-
-#footer {
     display: flex;
     flex-direction: column;
     text-align: center;
 }
 
-footer img {
+#footerLogo {
     width: 170px;
 }
 
 
+/*IF THE SCREEN WIDTH IS BELOW 700px*/
 @media screen and (max-width: 700px) {
     .info {
         flex-direction: column;
