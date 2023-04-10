@@ -1,0 +1,26 @@
+#banner {
+    max-width: 500px;
+}
+
+#ourStory {
+    display: flex;
+    flex-direction: column;
+    gap: 7em;
+}
+
+.info-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.clip-art {
+    max-height: 300px;
+}
+
+.chart {
+    width: 30vw;
+    /*height: 80%;*/
+}
+
+
