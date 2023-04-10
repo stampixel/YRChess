@@ -1,0 +1,37 @@
+.event-info-row {
+    display: flex;
+    flex-direction: row;
+    width: 80vw;
+    gap: 10%;
+    margin: auto auto 5em;
+}
+
+.text-part {
+    width: 50%;
+}
+
+.textRow {
+    display: flex;
+    flex-direction: row;
+}
+
+@media screen and (max-width: 1200px) {
+
+    #chessboard {
+        margin: auto;
+        width: 70vw;
+    }
+
+    #chessboard img {
+        width: 100%;
+
+    }
+
+    .event-info-row {
+        margin: auto;
+        flex-direction: column;
+        gap: 2em;
+        width: 70vw;
+        margin-bottom: 5em;
+    }
+}

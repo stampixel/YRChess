@@ -18,31 +18,38 @@
             crossorigin="anonymous"
     />
 
-    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="../static/styles.css">
+    <link rel="stylesheet" href="../static/home.css">
 </head>
 <body id="body">
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <span class="navbar-brand mb-0 h1">YRCHESS</span>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbar">
-        <div class="navbar-nav">
-            <a class="nav-item nav-link" href="">Home</a>
-            <a class="nav-item nav-link" href="">About</a>
-            <a class="nav-item nav-link" href="">Events</a>
-            <a class="nav-item nav-link" href="">Chess Puzzles</a>
-            <a class="nav-item nav-link" href="">Contact Us</a>
-        </div>
-    </div>
-</nav>
 <div class="main">
-    <!-- contain image of chess -->
-    <div id="bannerBackground">
+    <!-- HEADER/NAV-BAR -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div>
+                <img id="headerLogo" src="../static/img/logo.png" alt="Chess Logo">
+            </div>
+            <span class="navbar-brand mb-0 h1"><h1>YRChess</h1></span>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbar">
+                <div class="navbar-nav">
+                    <a class="nav-item nav-link" href="">Home</a>
+                    <a class="nav-item nav-link" href="">About</a>
+                    <a class="nav-item nav-link" href="">Events</a>
+                    <a class="nav-item nav-link" href="">Contact Us</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+    <!-- BANNER -->
+    <div id="bannerBackground" style="background-image: url('../static/img/chess_bg.png');">
         <div id="banner">
             <h1>Promoting Chess across York Region
                 and Beyond!</h1>
-            <!-- <img src="../static/img/chess_bg.png" alt=""> -->
 
             <div class="socials">
                 <a href=""><i class="fa-brands fa-instagram"></i></a>
@@ -51,6 +58,7 @@
         </div>
     </div>
 
+
     <!-- MAIN PAGE GOES HERE -->
     <main class="full-page">
         <div class="section" id="exploreWebsite">
@@ -58,7 +66,7 @@
                 <h1>Explore Our Website</h1>
             </div>
 
-            <!-- INFORMATION CHART -->
+            <!-- INFORMATION CHARTS -->
             <div class="info">
                 <div class="chart">
                     <div class="menu">
@@ -112,7 +120,6 @@
                 <h3>Nam Vietnamese Restaurant // Olympiads School // Sikee Electric // Sportika </h3>
             </div>
 
-
             <div id="advert" class="section">
                 <div id="logos">
                     <img class="logos" src="../static/img/sponsors/nam.png" alt="nam">
@@ -125,11 +132,10 @@
     </main>
 
 
-    <!-- FOOTER GOES HERE -->
+    <!-- FOOTER -->
     <footer>
         <hr>
         <div id="footer">
-            <!-- No longer a section class -->
             <div id="footerInfo">
                 <img id="footerLogo" src="../static/img/img.png" alt="">
 
@@ -137,8 +143,8 @@
                     <a href=""><i class="fa-brands fa-discord"></i></a>
                     <a href=""><i class="fa-brands fa-github"></i></a>
                 </div>
-                <h3>info@yrchess.com</h3>
-                <h3>@ 2023 YRChess. All rights reserved.</h3>
+                <h5>info@yrchess.com</h5>
+                <h6>© 2023 YRChess. All rights reserved.</h6>
 
             </div>
         </div>
@@ -146,6 +152,7 @@
 
 </div>
 
+<!-- IMPORTS -->
 <script
         src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"

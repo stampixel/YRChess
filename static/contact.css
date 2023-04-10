@@ -1,0 +1,28 @@
+#connectBlurb {
+    width: 60%;
+    margin: auto;
+}
+
+#socials {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    justify-content: center;
+    gap: 5%;
+}
+
+#socials i {
+    color: #284C7B;
+}
+
+.text-right {
+    padding: 0;
+}
+
+.text-left {
+    padding: 0;
+}
+
+#communications {
+    margin-bottom: 5em;
+}
