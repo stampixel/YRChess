@@ -32,12 +32,10 @@ li, a, button, h1, h2, h3, h4, h5, h6, p, span {
     text-decoration: none;
 }
 
-i {
-    color: rgb(194 192 193);
-}
 
-hr {
-    margin: 0;
+/*FOR CLICKABLE ICONS (I.E. DISCORD, INSTAGRAM)*/
+a {
+    color: rgb(194 192 193);
 }
 
 .root {
@@ -46,19 +44,79 @@ hr {
     max-width: 1950px;
 }
 
+/*header {*/
+/*    width: 100%;*/
+/*    margin: 0 auto;*/
+/*    display: flex;*/
+/*    justify-content: space-between;*/
+/*    align-items: center;*/
+/*    padding: 0 5%;*/
+/*    font-size: 14px;*/
+/*    height: 7%;*/
+/*}*/
+
 header {
     width: 100%;
-    font-size: 14px;
-    font-family: 'Inter', sans-serif;
 }
 
 #headerLogo {
-    height: 90px;
-    width: 90px;
+    height: 110px;
+    width: 110px;
 }
 
-/*ADD UNDERLINE EFFECTS FOR NAVBAR*/
 
+/* NAV BAR */
+.nav-links {
+    list-style: none;
+}
+
+.nav-links li {
+    display: inline-block;
+    /*padding: 0 20px;*/
+    padding: 0 0;
+}
+
+.nav-links a {
+    font-size: 18px;
+    padding: 15px 25px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    color: #284C7B;
+
+}
+
+.nav-links button:hover {
+    background-color: rgba(36, 37, 55, 0.6);
+    /*text-underline: white;*/
+}
+
+.nav-links a:hover {
+    text-underline: white;
+    text-decoration: underline;
+    text-underline-offset: 5px;
+    text-decoration-thickness: 3px;
+}
+
+
+#top-logo {
+    display: flex;
+    flex-direction: row;
+    /*vertical-align: middle;*/
+}
+
+#YRCHESS {
+    text-align: center;
+    display: table;
+    width: 100%;
+}
+
+/*Align logo vertically to the center*/
+#YRCHESS h1 {
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 40px;
+}
 
 .fa-brands, .fab {
     margin-left: 5px;
@@ -83,7 +141,7 @@ header {
 }
 
 #bannerBackground {
-    /*ADD BACKGROUND IN HTML*/
+    background-image: url("../static/img/chess_bg.png");
     background-size: cover;
     height: calc(100vh - 10px);
     width: 100vw;
@@ -104,7 +162,6 @@ header {
 
     text-align: center;
     width: 40%;
-    gap: 1em;
 }
 
 #banner h1 {
@@ -113,15 +170,22 @@ header {
 }
 
 .socials {
+    padding-top: 1em;
     color: #E6E6E6;
 }
 
+
+/*MAIN PAGE STYLES*/
 main {
     width: 100%;
     height: 100%;
     display: flex;
     flex-direction: column;
+
     justify-content: center;
+
+    /*padding: 0 45px;*/
+    /*max-width: 1500px;*/
 }
 
 .section {
@@ -137,6 +201,7 @@ main {
     padding: 0 45px;
     color: #284C7B;
 }
+
 
 .icons {
     width: 3em;
@@ -195,9 +260,7 @@ main {
     width: 100%;
 }
 
-
-.btn button {
-    position: absolute;
+button {
     padding: 11px 46px;
     gap: 12px;
     background: #E5E7EB;
@@ -231,7 +294,8 @@ footer {
 }
 
 #footerLogo {
-    max-width: 150px;
+    width: 50%;
+    max-width: 200px;
 }
 
 
