@@ -3,3 +3,20 @@
     padding: 0 45px;
     color: #284C7B;
 }
+
+.chart {
+    width: 40%;
+}
+
+#meetTeam {
+    background-color: #CFC2B3;
+}
+
+/*IF THE SCREEN WIDTH IS BELOW 700px*/
+@media screen and (max-width: 700px) {
+    .chart {
+        width: 100%;
+    }
+
+}
+

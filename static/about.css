@@ -5,7 +5,7 @@
 #ourStory {
     display: flex;
     flex-direction: column;
-    gap: 7em;
+    gap: 5em;
 }
 
 .info-row {
@@ -20,7 +20,88 @@
 
 .chart {
     width: 30vw;
-    /*height: 80%;*/
+    height: 80%;
 }
+
+#meetTeam {
+    align-self: center;
+    justify-content: center;
+    width: 70vw;
+    background-color: #CFC2B3;
+    margin: auto;
+}
+
+#founders {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+
+    /*WRAP STUFF*/
+    flex-wrap: wrap;
+    gap: 2em;
+}
+
+.menu {
+    gap: 1em;
+}
+
+.portrait {
+    background-color: #D2DAE3;
+    padding: 1.5em;
+    border-radius: 2em;
+}
+
+#founders img {
+    max-width: 250px;
+}
+
+.text-block {
+    gap: 0.5em;
+}
+
+.block {
+    margin-bottom: 5em;
+}
+
+/*IF THE SCREEN WIDTH IS BELOW 700px*/
+@media screen and (max-width: 700px) {
+    .clip-art {
+        display: none;
+    }
+
+    .chart {
+        width: 80%;
+        margin: auto;
+    }
+
+    .sub-title {
+        width: 80%;
+        margin: auto;
+    }
+
+    #founders {
+        flex-wrap: wrap;
+        gap: 1em;
+    }
+
+    #meetTeam {
+        width: 85vw;
+    }
+
+    .portrait {
+        width: 80%;
+        margin: auto;
+
+        border-radius: 0;
+    }
+
+    #founders .menu {
+        flex-direction: row;
+        justify-content: space-evenly;
+        height: 150px;
+    }
+}
+
 
 

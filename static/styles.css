@@ -46,6 +46,10 @@ hr {
     max-width: 1950px;
 }
 
+.bold {
+    font-weight: bold;
+}
+
 header {
     width: 100%;
     font-size: 14px;
@@ -90,6 +94,7 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-position: center;
 }
 
 #banner {
@@ -126,7 +131,7 @@ main {
 
 .section {
     margin-top: 3em;
-    margin-bottom: 3em;
+    margin-bottom: 5em;
     /*NEEDS ALIGN SELF CENTER TO CENTER SOMETHING IN A FLEX COLUMN*/
     align-self: center;
     justify-content: center;
@@ -162,7 +167,6 @@ main {
 
 .chart {
     background-color: #D2DAE3;
-    width: 40%;
     display: flex;
     flex-direction: column;
 
@@ -239,10 +243,6 @@ footer {
         width: 100%;
     }
 
-    .chart {
-        width: 100%;
-    }
-
     #logos {
         display: flex;
         flex-direction: column;
@@ -261,8 +261,8 @@ footer {
 
 
 .sub-title {
-    /*width: 80%;*/
-    /*margin: auto;*/
+    margin-bottom: 3em;
+    font-weight: 900;
 }
 
 .text-left {
@@ -273,4 +273,13 @@ footer {
 .text-right {
     text-align: right;
     padding-right: 2em;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.darker-background {
+    width: 100%;
+    background-color: #CFC2B3;
 }
