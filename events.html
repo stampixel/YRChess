@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <script src="https://kit.fontawesome.com/8771781f50.js" crossorigin="anonymous"></script>
+    <link
+            rel="stylesheet"
+            href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+            integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+            crossorigin="anonymous"
+    />
+    <link
+            rel="stylesheet"
+            href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+            crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="./static/styles.css">
+    <link rel="stylesheet" href="./static/events.css">
+</head>
+<body id="body">
+<div class="main">
+    <!-- HEADER/NAV-BAR -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div>
+                <img id="headerLogo" src="./static/img/logo.png" alt="Chess Logo">
+            </div>
+            <span class="navbar-brand mb-0 h1"><h1>YRChess</h1></span>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbar">
+                <div class="navbar-nav">
+                    <a class="nav-item nav-link" href="">Home</a>
+                    <a class="nav-item nav-link" href="">About</a>
+                    <a class="nav-item nav-link" href="">Events</a>
+                    <a class="nav-item nav-link" href="">Contact Us</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+    <!-- BANNER -->
+    <div id="bannerBackground" style="background-image: url('./static/img/chessboard_bg.png');">
+        <div id="banner">
+            <h1>Chess Events for Everyone!</h1>
+        </div>
+    </div>
+
+
+    <!-- MAIN PAGE GOES HERE -->
+    <main class="full-page">
+
+
+        <!-- UPCOMING EVENTS -->
+        <div class="section" id="upcomingEvents">
+            <div class="title-block">
+                <h1>Upcoming Events</h1>
+            </div>
+
+            <div class="text-block text-center">
+                <h3>Our next planned event will take place in 2024. </h3>
+                <h3>Keep an eye out for updates about this tournament when the time comes!</h3>
+            </div>
+        </div>
+
+        <div class="darker-background">
+
+            <!-- PAST EVENTS -->
+            <div id="pastEvents">
+                <div class="title-block">
+                    <h1>Past Events</h1>
+                </div>
+
+                <div class="event-row">
+                    <div class="event-info-row">
+                        <div id="chessboard">
+                            <img src="./static/img/chessboard.png" alt="Chessboard">
+                        </div>
+
+                        <div class="">
+                            <div class="text-block">
+                                <h3>YRChess First Annual Casual Tournament</h3>
+                                <div class="textRow">
+                                    <div class="text-part"><h5>Date and time: Sat, Mar 11, 2023 10:30 AM - 6:30 PM
+                                        EST</h5></div>
+                                    <div class="text-part"><h5>Location: 130 Yorkland Blvd 130 Yorkland Boulevard
+                                        Toronto, ON M2J 1R5</h5>
+                                    </div>
+                                </div>
+
+                                <h5>
+                                    Event details: Join us on March 11 from 10:30 am to 6:30 pm for YRChess's First
+                                    Annual Casual Event! Bring along friends, family, or colleagues to enjoy a couple of
+                                    relaxing games of chess and refreshments!
+                                </h5>
+
+                                <h5>
+                                    Want to try out 4 player chess or play against a GM? Choose our General Admission
+                                    Ticket! Want to do all that and duke it out with others near your skill level?
+                                    Choose our Competitive Tickets!
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <hr>
+
+    <!-- FOOTER -->
+    <footer>
+        <hr>
+        <div id="footer">
+            <div id="footerInfo">
+                <img id="footerLogo" src="./static/img/img.png" alt="">
+
+                <div class="socials">
+                    <a href=""><i class="fa-brands fa-discord"></i></a>
+                    <a href=""><i class="fa-brands fa-github"></i></a>
+                </div>
+                <h5>info@yrchess.com</h5>
+                <h6>© 2023 YRChess. All rights reserved.</h6>
+
+            </div>
+        </div>
+    </footer>
+
+</div>
+
+<!-- IMPORTS -->
+<script
+        src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"
+></script>
+<script
+        src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"
+></script>
+<script
+        src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"
+></script>
+</body>
+</html>
